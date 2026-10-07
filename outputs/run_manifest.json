@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-02-01",
+  "inputs": {
+    "synthetic_aggregations.csv": "8fcf6d8227fce5bc3ab5069965d0c38c439446b702f5d7a63fe0922bfe051e85",
+    "synthetic_assets.csv": "f5ab9a0cdf20fcb00d4e2be8110a155805ae6409066f039fd98d81a5e72d4406",
+    "synthetic_claims.csv": "39b578084aacaf6ed4eb15af8276876ff1f1f0e23ba4f400288d34b059a4cb06",
+    "synthetic_entities.csv": "5f99ee20ea7aa4aab29a506f92db80f01b0f35f2881852cce6703207a6719073",
+    "synthetic_relationships.csv": "868839bce6e549bbfe833a11549defbd62ef7b189881a21d341c1b232b2d9f18",
+    "synthetic_sources.csv": "17449853950da48ca099a970100d149836e1f687624072de1519891ea7b66a8c",
+    "synthetic_transactions.csv": "09c8b9cc094a217439bf18985bdef268a4add0270d553de83d6b6ce976133ab3"
+  },
+  "nodes": 12,
+  "edges": 14,
+  "layout": "fixed",
+  "synthetic_only": true
+}

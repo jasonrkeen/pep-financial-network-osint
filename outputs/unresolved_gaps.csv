@@ -1,0 +1,8 @@
+record_id,status,gap,next_evidence
+CL007,Unresolved,General succession exists; A001 is absent from the available schedule.,Asset-specific transfer schedule and post-merger title extract
+CL009,Unresolved,Available shareholder record and bounded search do not identify beneficiaries.,Trust deed; beneficiary schedule; verified beneficial ownership filing
+CL002,Rejected,Rejected on the available demo evidence; not proof of non-ownership.,Direct shareholding/control records
+CL004,Probable / analytic judgment,Transfer predates purchase by 17 days but no earmarking record exists.,Loan agreement; completion statement; account ledger; purchase funding schedule
+CL005,Rejected,Chronology and loan purpose do not prove purchase funding.,Earmarking record and completion ledger
+CL008,Rejected,"Shared address alone supports association, not ownership/control.","Title, lease or purchase record"
+TX004,Unresolved,Documented transfer; economic source of funds unresolved,Originating account records and trust funding instrument

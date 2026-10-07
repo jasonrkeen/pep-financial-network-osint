@@ -1,0 +1,27 @@
+{
+  "python": "3.14.4",
+  "tests": "See test_results.txt",
+  "clean_errors": 0,
+  "broken_errors": 24,
+  "graphml_roundtrip": "passed",
+  "claim_rows": 9,
+  "gap_records": [
+    "CL007",
+    "CL009",
+    "CL002",
+    "CL004",
+    "CL005",
+    "CL008",
+    "TX004"
+  ],
+  "derivative_S005_root": "S004",
+  "repeat_sha256_equal": true,
+  "output_sha256": {
+    "demo_network.graphml": "cf478ebf1fc5e6dfd65625954108e9b23ed180a098f312e21291869a40004625",
+    "demo_network.png": "7addfd05c6036dbf3bf4ae6f5788e8c4b669de9d9e74827d89d3292dd57b279b",
+    "evidence_matrix.csv": "39fcbdf95ce86668fd4807a8656d16081c40355a5b80066d974dbffa3f7551f5",
+    "unresolved_gaps.csv": "32960640a3def6e0fd2d040015b20c56b5ad8c7acdbad1cf768f34516605e8e0",
+    "source_dependencies.csv": "9284535b7d13e60ebe252086d249df4a6f19061c39036604b297f798d189af76",
+    "run_manifest.json": "0075a23542c69bb2bfc3239546cf496a3ccbce7019c102611e5cacf6770456a2"
+  }
+}

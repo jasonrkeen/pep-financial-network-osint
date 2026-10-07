@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-02-01",
+  "errors": [],
+  "warnings": [
+    {
+      "code": "DERIVATIVE_CONTEXT",
+      "record_id": "S005",
+      "detail": "retained for context; not independent corroboration"
+    }
+  ],
+  "error_count": 0,
+  "warning_count": 1
+}

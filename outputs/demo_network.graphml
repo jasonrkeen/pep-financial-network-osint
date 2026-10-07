@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d53" for="edge" attr.name="ownership_status" attr.type="string"/>
+<key id="d52" for="edge" attr.name="earmarked_asset_id" attr.type="string"/>
+<key id="d51" for="edge" attr.name="limitations" attr.type="string"/>
+<key id="d50" for="edge" attr.name="account_bank_context" attr.type="string"/>
+<key id="d49" for="edge" attr.name="payment_purpose_recorded" attr.type="string"/>
+<key id="d48" for="edge" attr.name="currency" attr.type="string"/>
+<key id="d47" for="edge" attr.name="amount" attr.type="string"/>
+<key id="d46" for="edge" attr.name="payee_entity_id" attr.type="string"/>
+<key id="d45" for="edge" attr.name="payer_entity_id" attr.type="string"/>
+<key id="d44" for="edge" attr.name="date" attr.type="string"/>
+<key id="d43" for="edge" attr.name="transaction_id" attr.type="string"/>
+<key id="d42" for="edge" attr.name="edge_kind" attr.type="string"/>
+<key id="d41" for="edge" attr.name="label" attr.type="string"/>
+<key id="d40" for="edge" attr.name="support_basis" attr.type="string"/>
+<key id="d39" for="edge" attr.name="ownership_percent" attr.type="string"/>
+<key id="d38" for="edge" attr.name="temporal_status" attr.type="string"/>
+<key id="d37" for="edge" attr.name="notes" attr.type="string"/>
+<key id="d36" for="edge" attr.name="source_ids" attr.type="string"/>
+<key id="d35" for="edge" attr.name="confidence" attr.type="string"/>
+<key id="d34" for="edge" attr.name="end_date" attr.type="string"/>
+<key id="d33" for="edge" attr.name="start_date" attr.type="string"/>
+<key id="d32" for="edge" attr.name="relationship_type" attr.type="string"/>
+<key id="d31" for="edge" attr.name="target_entity_id" attr.type="string"/>
+<key id="d30" for="edge" attr.name="source_entity_id" attr.type="string"/>
+<key id="d29" for="edge" attr.name="relationship_id" attr.type="string"/>
+<key id="d28" for="node" attr.name="value_basis" attr.type="string"/>
+<key id="d27" for="node" attr.name="currency" attr.type="string"/>
+<key id="d26" for="node" attr.name="purchase_price" attr.type="string"/>
+<key id="d25" for="node" attr.name="purchase_date" attr.type="string"/>
+<key id="d24" for="node" attr.name="purchaser_entity_id" attr.type="string"/>
+<key id="d23" for="node" attr.name="association_basis" attr.type="string"/>
+<key id="d22" for="node" attr.name="limitations" attr.type="string"/>
+<key id="d21" for="node" attr.name="confidence" attr.type="string"/>
+<key id="d20" for="node" attr.name="source_ids" attr.type="string"/>
+<key id="d19" for="node" attr.name="valuation_status" attr.type="string"/>
+<key id="d18" for="node" attr.name="ownership_status" attr.type="string"/>
+<key id="d17" for="node" attr.name="associated_entity_id" attr.type="string"/>
+<key id="d16" for="node" attr.name="description" attr.type="string"/>
+<key id="d15" for="node" attr.name="asset_type" attr.type="string"/>
+<key id="d14" for="node" attr.name="asset_id" attr.type="string"/>
+<key id="d13" for="node" attr.name="node_kind" attr.type="string"/>
+<key id="d12" for="node" attr.name="label" attr.type="string"/>
+<key id="d11" for="node" attr.name="notes" attr.type="string"/>
+<key id="d10" for="node" attr.name="status" attr.type="string"/>
+<key id="d9" for="node" attr.name="end_date" attr.type="string"/>
+<key id="d8" for="node" attr.name="start_date" attr.type="string"/>
+<key id="d7" for="node" attr.name="registration_id" attr.type="string"/>
+<key id="d6" for="node" attr.name="jurisdiction" attr.type="string"/>
+<key id="d5" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d4" for="node" attr.name="name" attr.type="string"/>
+<key id="d3" for="node" attr.name="entity_id" attr.type="string"/>
+<key id="d2" for="graph" attr.name="warning" attr.type="string"/>
+<key id="d1" for="graph" attr.name="as_of" attr.type="string"/>
+<key id="d0" for="graph" attr.name="demo" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">SYNTHETIC ONLY</data>
+<data key="d1">2026-02-01</data>
+<data key="d2">Association, succession and timing do not prove ownership, title or funding.</data>
+<node id="P001">
+  <data key="d3">P001</data>
+  <data key="d4">Alex Mercer</data>
+  <data key="d5">person</data>
+  <data key="d6">Demo Republic</data>
+  <data key="d7"></data>
+  <data key="d8">2020-01-01</data>
+  <data key="d9"></data>
+  <data key="d10">active</data>
+  <data key="d11">Synthetic PEP role; no attribution through family</data>
+  <data key="d12">DEMO Alex Mercer</data>
+  <data key="d13">entity</data>
+</node>
+<node id="P002">
+  <data key="d3">P002</data>
+  <data key="d4">Dana Mercer</data>
+  <data key="d5">person</data>
+  <data key="d6">Demo Republic</data>
+  <data key="d7"></data>
+  <data key="d8">2020-01-01</data>
+  <data key="d9"></data>
+  <data key="d10">active</data>
+  <data key="d11">Synthetic family member</data>
+  <data key="d12">DEMO Dana Mercer</data>
+  <data key="d13">entity</data>
+</node>
+<node id="P003">
+  <data key="d3">P003</data>
+  <data key="d4">Elias Voss</data>
+  <data key="d5">person</data>
+  <data key="d6">Demo Republic</data>
+  <data key="d7"></data>
+  <data key="d8">2020-01-01</data>
+  <data key="d9"></data>
+  <data key="d10">active</data>
+  <data key="d11">Synthetic director</data>
+  <data key="d12">DEMO Elias Voss</data>
+  <data key="d13">entity</data>
+</node>
+<node id="C001">
+  <data key="d3">C001</data>
+  <data key="d4">Northbridge Holdings Ltd</data>
+  <data key="d5">company</data>
+  <data key="d6">Demo Offshore A</data>
+  <data key="d7">DEMO-C001</data>
+  <data key="d8">2020-01-01</data>
+  <data key="d9"></data>
+  <data key="d10">active</data>
+  <data key="d11">Fictional jurisdiction; offshore does not imply wrongdoing</data>
+  <data key="d12">DEMO Northbridge Holdings Ltd</data>
+  <data key="d13">entity</data>
+</node>
+<node id="C002">
+  <data key="d3">C002</data>
+  <data key="d4">Harbor Crest Trading Ltd</data>
+  <data key="d5">company</data>
+  <data key="d6">Demo Offshore B</data>
+  <data key="d7">DEMO-C002</data>
+  <data key="d8">2021-01-01</data>
+  <data key="d9"></data>
+  <data key="d10">active</data>
+  <data key="d11">Synthetic operating company</data>
+  <data key="d12">DEMO Harbor Crest Trading Ltd</data>
+  <data key="d13">entity</data>
+</node>
+<node id="C003">
+  <data key="d3">C003</data>
+  <data key="d4">Meridian Property SPV Ltd</data>
+  <data key="d5">company</data>
+  <data key="d6">Demo Republic</data>
+  <data key="d7">DEMO-C003</data>
+  <data key="d8">2024-01-01</data>
+  <data key="d9">2025-09-01</data>
+  <data key="d10">merged</data>
+  <data key="d11">Historical purchaser; ceased as separate entity at merger</data>
+  <data key="d12">DEMO Meridian Property SPV Ltd</data>
+  <data key="d13">entity</data>
+</node>
+<node id="C004">
+  <data key="d3">C004</data>
+  <data key="d4">Summit Residential Management LLC</data>
+  <data key="d5">company</data>
+  <data key="d6">Demo Republic</data>
+  <data key="d7">DEMO-C004</data>
+  <data key="d8">2024-01-01</data>
+  <data key="d9"></data>
+  <data key="d10">active</data>
+  <data key="d11">Successor entity; asset-specific title unresolved</data>
+  <data key="d12">DEMO Summit Residential Management LLC</data>
+  <data key="d13">entity</data>
+</node>
+<node id="T001">
+  <data key="d3">T001</data>
+  <data key="d4">Alder Family Trust</data>
+  <data key="d5">trust</data>
+  <data key="d6">Demo Offshore A</data>
+  <data key="d7">DEMO-T001</data>
+  <data key="d8">2025-10-01</data>
+  <data key="d9"></data>
+  <data key="d10">active</data>
+  <data key="d11">Beneficiaries unresolved</data>
+  <data key="d12">DEMO Alder Family Trust</data>
+  <data key="d13">entity</data>
+</node>
+<node id="B001">
+  <data key="d3">B001</data>
+  <data key="d4">Continental Private Bank</data>
+  <data key="d5">bank</data>
+  <data key="d6">Demo Republic</data>
+  <data key="d7">DEMO-B001</data>
+  <data key="d8">2020-01-01</data>
+  <data key="d9"></data>
+  <data key="d10">active</data>
+  <data key="d11">Payment origin counterparty; underlying source of funds unknown</data>
+  <data key="d12">DEMO Continental Private Bank</data>
+  <data key="d13">entity</data>
+</node>
+<node id="B002">
+  <data key="d3">B002</data>
+  <data key="d4">Eastport Commercial Bank</data>
+  <data key="d5">bank</data>
+  <data key="d6">Demo Republic</data>
+  <data key="d7">DEMO-B002</data>
+  <data key="d8">2020-01-01</data>
+  <data key="d9"></data>
+  <data key="d10">active</data>
+  <data key="d11">Bank context, not beneficial owner</data>
+  <data key="d12">DEMO Eastport Commercial Bank</data>
+  <data key="d13">entity</data>
+</node>
+<node id="A001">
+  <data key="d14">A001</data>
+  <data key="d15">commercial property</data>
+  <data key="d16">14 Meridian Square</data>
+  <data key="d6">Demo Republic</data>
+  <data key="d17">C003</data>
+  <data key="d18">Historical purchaser; current title unresolved</data>
+  <data key="d19">Purchase price only; market value unknown</data>
+  <data key="d20">S010;S011</data>
+  <data key="d21">High</data>
+  <data key="d22">Purchase recorded; merger schedule omits A001 and current title is unresolved. Price is not market valuation.</data>
+  <data key="d23">purchase_record</data>
+  <data key="d24">C003</data>
+  <data key="d25">2025-02-20</data>
+  <data key="d26">5500000</data>
+  <data key="d27">USD</data>
+  <data key="d28">purchase_record</data>
+  <data key="d12">DEMO 14 Meridian Square</data>
+  <data key="d13">asset</data>
+</node>
+<node id="A002">
+  <data key="d14">A002</data>
+  <data key="d15">residential property</data>
+  <data key="d16">Ridgeview Residence</data>
+  <data key="d6">Demo Republic</data>
+  <data key="d17">C002</data>
+  <data key="d18">Address association only</data>
+  <data key="d19">Unknown</data>
+  <data key="d20">S004;S005</data>
+  <data key="d21">High</data>
+  <data key="d22">Shared registered address only; no title, purchase, lease or beneficial-owner record in demo.</data>
+  <data key="d23">address</data>
+  <data key="d24"></data>
+  <data key="d25"></data>
+  <data key="d26"></data>
+  <data key="d27"></data>
+  <data key="d28">unknown</data>
+  <data key="d12">DEMO Ridgeview Residence</data>
+  <data key="d13">asset</data>
+</node>
+<edge source="P001" target="P002" id="R002">
+  <data key="d29">R002</data>
+  <data key="d30">P001</data>
+  <data key="d31">P002</data>
+  <data key="d32">family</data>
+  <data key="d33">2020-01-01</data>
+  <data key="d34"></data>
+  <data key="d35">High</data>
+  <data key="d36">S002</data>
+  <data key="d37">Family only</data>
+  <data key="d38">Current</data>
+  <data key="d39"></data>
+  <data key="d40">family</data>
+  <data key="d41">family</data>
+  <data key="d42">family</data>
+</edge>
+<edge source="P002" target="C001" id="R001">
+  <data key="d29">R001</data>
+  <data key="d30">P002</data>
+  <data key="d31">C001</data>
+  <data key="d32">ownership</data>
+  <data key="d33">2020-01-01</data>
+  <data key="d34"></data>
+  <data key="d35">High</data>
+  <data key="d36">S001</data>
+  <data key="d37">Recorded shareholder; no automatic attribution to P001</data>
+  <data key="d38">Current</data>
+  <data key="d39">100</data>
+  <data key="d40">registry</data>
+  <data key="d41">100% shares (current)</data>
+  <data key="d42">ownership</data>
+</edge>
+<edge source="P003" target="C002" id="R004">
+  <data key="d29">R004</data>
+  <data key="d30">P003</data>
+  <data key="d31">C002</data>
+  <data key="d32">director</data>
+  <data key="d33">2024-01-01</data>
+  <data key="d34"></data>
+  <data key="d35">High</data>
+  <data key="d36">S004;S005</data>
+  <data key="d37">Director role is not ownership; S005 derives from S004</data>
+  <data key="d38">Current</data>
+  <data key="d39"></data>
+  <data key="d40">registry</data>
+  <data key="d41">director</data>
+  <data key="d42">director</data>
+</edge>
+<edge source="C001" target="C002" id="R003">
+  <data key="d29">R003</data>
+  <data key="d30">C001</data>
+  <data key="d31">C002</data>
+  <data key="d32">ownership</data>
+  <data key="d33">2021-01-01</data>
+  <data key="d34"></data>
+  <data key="d35">High</data>
+  <data key="d36">S003</data>
+  <data key="d37">Corporate shareholding supports control judgment</data>
+  <data key="d38">Current</data>
+  <data key="d39">100</data>
+  <data key="d40">corporate_ownership</data>
+  <data key="d41">100% shares (current)</data>
+  <data key="d42">ownership</data>
+</edge>
+<edge source="C001" target="C002" id="TX002">
+  <data key="d43">TX002</data>
+  <data key="d44">2025-01-12</data>
+  <data key="d45">C001</data>
+  <data key="d46">C002</data>
+  <data key="d47">1200000</data>
+  <data key="d48">EUR</data>
+  <data key="d49">working capital</data>
+  <data key="d50">Synthetic bank context unavailable</data>
+  <data key="d36">S007</data>
+  <data key="d35">High</data>
+  <data key="d51">Do not sum EUR with USD without documented FX conversion</data>
+  <data key="d52"></data>
+  <data key="d41">TX002 EUR 1,200,000; 2025-01-12 / working capital; transfer only</data>
+  <data key="d42">transaction</data>
+</edge>
+<edge source="C002" target="B002" id="R007">
+  <data key="d29">R007</data>
+  <data key="d30">C002</data>
+  <data key="d31">B002</data>
+  <data key="d32">bank_context</data>
+  <data key="d33">2024-03-10</data>
+  <data key="d34"></data>
+  <data key="d35">High</data>
+  <data key="d36">S006</data>
+  <data key="d37">Account context only; not bank ownership/control</data>
+  <data key="d38">Current</data>
+  <data key="d39"></data>
+  <data key="d40">registry</data>
+  <data key="d41">bank context</data>
+  <data key="d42">bank_context</data>
+</edge>
+<edge source="C002" target="C003" id="TX001">
+  <data key="d43">TX001</data>
+  <data key="d44">2025-02-03</data>
+  <data key="d45">C002</data>
+  <data key="d46">C003</data>
+  <data key="d47">4000000</data>
+  <data key="d48">USD</data>
+  <data key="d49">intercompany loan</data>
+  <data key="d50">B002: synthetic sending account</data>
+  <data key="d36">S006</data>
+  <data key="d35">High</data>
+  <data key="d51">No purchase earmark; timing alone does not prove property funding</data>
+  <data key="d52"></data>
+  <data key="d41">TX001 USD 4,000,000; 2025-02-03 / intercompany loan; transfer only</data>
+  <data key="d42">transaction</data>
+</edge>
+<edge source="C002" target="C003" id="TX003">
+  <data key="d43">TX003</data>
+  <data key="d44">2024-03-10</data>
+  <data key="d45">C002</data>
+  <data key="d46">C003</data>
+  <data key="d47">750000</data>
+  <data key="d48">USD</data>
+  <data key="d49"></data>
+  <data key="d50">Synthetic bank context unavailable</data>
+  <data key="d36">S008</data>
+  <data key="d35">Moderate</data>
+  <data key="d51">Secondary report only; purpose unknown</data>
+  <data key="d52"></data>
+  <data key="d41">TX003 USD 750,000; 2024-03-10 / purpose unknown; transfer only</data>
+  <data key="d42">transaction</data>
+</edge>
+<edge source="C002" target="A002" id="ASSET_A002">
+  <data key="d41">shared address ONLY</data>
+  <data key="d36">S004;S005</data>
+  <data key="d51">Shared registered address only; no title, purchase, lease or beneficial-owner record in demo.</data>
+  <data key="d35">High</data>
+  <data key="d42">address</data>
+  <data key="d53">Address association only</data>
+</edge>
+<edge source="C003" target="C004" id="R005">
+  <data key="d29">R005</data>
+  <data key="d30">C003</data>
+  <data key="d31">C004</data>
+  <data key="d32">merger</data>
+  <data key="d33">2025-09-01</data>
+  <data key="d34">2025-09-01</data>
+  <data key="d35">High</data>
+  <data key="d36">S011</data>
+  <data key="d37">Legal succession; schedule does not identify A001</data>
+  <data key="d38">Historical</data>
+  <data key="d39"></data>
+  <data key="d40">merger_record</data>
+  <data key="d41">legal merger; A001 title unresolved</data>
+  <data key="d42">merger</data>
+</edge>
+<edge source="C003" target="C004" id="R008">
+  <data key="d29">R008</data>
+  <data key="d30">C003</data>
+  <data key="d31">C004</data>
+  <data key="d32">ownership</data>
+  <data key="d33">2024-01-01</data>
+  <data key="d34">2025-09-01</data>
+  <data key="d35">High</data>
+  <data key="d36">S011</data>
+  <data key="d37">Synthetic historical shareholding ended at merger</data>
+  <data key="d38">Historical</data>
+  <data key="d39">100</data>
+  <data key="d40">registry</data>
+  <data key="d41">100% shares (historical)</data>
+  <data key="d42">ownership</data>
+</edge>
+<edge source="C003" target="A001" id="ASSET_A001">
+  <data key="d41">historical purchase; current title unresolved</data>
+  <data key="d36">S010;S011</data>
+  <data key="d51">Purchase recorded; merger schedule omits A001 and current title is unresolved. Price is not market valuation.</data>
+  <data key="d35">High</data>
+  <data key="d42">purchase</data>
+  <data key="d53">Historical purchaser; current title unresolved</data>
+</edge>
+<edge source="T001" target="C004" id="R006">
+  <data key="d29">R006</data>
+  <data key="d30">T001</data>
+  <data key="d31">C004</data>
+  <data key="d32">ownership</data>
+  <data key="d33">2025-10-01</data>
+  <data key="d34"></data>
+  <data key="d35">High</data>
+  <data key="d36">S012</data>
+  <data key="d37">Shareholder record does not disclose trust beneficiaries</data>
+  <data key="d38">Current</data>
+  <data key="d39">100</data>
+  <data key="d40">registry</data>
+  <data key="d41">100% shares (current)</data>
+  <data key="d42">ownership</data>
+</edge>
+<edge source="B001" target="T001" id="TX004">
+  <data key="d43">TX004</data>
+  <data key="d44">2026-01-15</data>
+  <data key="d45">B001</data>
+  <data key="d46">T001</data>
+  <data key="d47">2500000</data>
+  <data key="d48">USD</data>
+  <data key="d49"></data>
+  <data key="d50">B001: documented sending institution</data>
+  <data key="d36">S009</data>
+  <data key="d35">High</data>
+  <data key="d51">Transfer documented; underlying economic source of funds unresolved</data>
+  <data key="d52"></data>
+  <data key="d41">TX004 USD 2,500,000; 2026-01-15 / purpose unknown; transfer only</data>
+  <data key="d42">transaction</data>
+</edge>
+</graph></graphml>

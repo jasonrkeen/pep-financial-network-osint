@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# JAS-62 local environment and credentials
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+work/
+.DS_Store

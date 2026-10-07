@@ -1,0 +1,5 @@
+transaction_id,date,payer_entity_id,payee_entity_id,amount,currency,payment_purpose_recorded,account_bank_context,source_ids,confidence,limitations,earmarked_asset_id
+TX001,2025-02-03,C002,C003,4000000,USD,intercompany loan,B002: synthetic sending account,S006,High,No purchase earmark; timing alone does not prove property funding,
+TX002,2025-01-12,C001,C002,1200000,EUR,working capital,Synthetic bank context unavailable,S007,High,Do not sum EUR with USD without documented FX conversion,
+TX003,2024-03-10,C002,C003,750000,USD,,Synthetic bank context unavailable,S008,Moderate,Secondary report only; purpose unknown,
+TX004,2026-01-15,B001,T001,2500000,USD,,B001: documented sending institution,S009,High,Transfer documented; underlying economic source of funds unresolved,
