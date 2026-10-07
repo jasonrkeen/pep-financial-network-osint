@@ -1,0 +1,11 @@
+entity_id,name,entity_type,jurisdiction,registration_id,start_date,end_date,status,notes
+P001,Alex Mercer,person,Demo Republic,,2020-01-01,,active,Synthetic PEP role; no attribution through family
+P002,Dana Mercer,person,Demo Republic,,2020-01-01,,active,Synthetic family member
+P003,Elias Voss,person,Demo Republic,,2020-01-01,,active,Synthetic director
+C001,Northbridge Holdings Ltd,company,Demo Offshore A,DEMO-C001,2020-01-01,,active,Fictional jurisdiction; offshore does not imply wrongdoing
+C002,Harbor Crest Trading Ltd,company,Demo Offshore B,DEMO-C002,2021-01-01,,active,Synthetic operating company
+C003,Meridian Property SPV Ltd,company,Demo Republic,DEMO-C003,2024-01-01,2025-09-01,merged,Historical purchaser; ceased as separate entity at merger
+C004,Summit Residential Management LLC,company,Demo Republic,DEMO-C004,2024-01-01,,active,Successor entity; asset-specific title unresolved
+T001,Alder Family Trust,trust,Demo Offshore A,DEMO-T001,2025-10-01,,active,Beneficiaries unresolved
+B001,Continental Private Bank,bank,Demo Republic,DEMO-B001,2020-01-01,,active,Payment origin counterparty; underlying source of funds unknown
+B002,Eastport Commercial Bank,bank,Demo Republic,DEMO-B002,2020-01-01,,active,"Bank context, not beneficial owner"

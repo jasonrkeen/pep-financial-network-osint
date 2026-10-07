@@ -1,0 +1,14 @@
+source_id,title,publisher,source_type,publication_date,reference,source_quality,primary_or_secondary,notes,derived_from,record_key
+S001,SYNTHETIC: Shareholder extract: Northbridge,Demo Registry,registry,2025-01-01,demo://records/S001,High,Primary,Fictional record; not a retrieved real-world document.,,NB-shareholders
+S002,SYNTHETIC: Family relationship filing,Demo Disclosure Office,disclosure,2025-01-01,demo://records/S002,High,Primary,Fictional record; not a retrieved real-world document.,,family-disclosure
+S003,SYNTHETIC: Harbor Crest shareholder extract,Demo Registry,registry,2025-01-01,demo://records/S003,High,Primary,Fictional record; not a retrieved real-world document.,,HC-shareholders
+S004,SYNTHETIC: Harbor Crest director and registered address filing,Demo Registry,registry,2025-01-02,demo://records/S004,High,Primary,Fictional record; not a retrieved real-world document.,,HC-director-address
+S005,SYNTHETIC: Article summarizing S004,Demo Gazette,news,2025-01-03,demo://records/S005,Moderate,Secondary,Fictional record; not a retrieved real-world document.,S004,gazette-S004-summary
+S006,SYNTHETIC: TX001 intercompany loan transfer record,Demo Bank Records,bank_record,2025-02-03,demo://records/S006,High,Primary,Fictional record; not a retrieved real-world document.,,TX001-record
+S007,SYNTHETIC: TX002 working capital transfer record,Demo Bank Records,bank_record,2025-01-12,demo://records/S007,High,Primary,Fictional record; not a retrieved real-world document.,,TX002-record
+S008,SYNTHETIC: Reported TX003 transfer,Demo Gazette,news,2024-03-12,demo://records/S008,Moderate,Secondary,Fictional record; not a retrieved real-world document.,,TX003-report
+S009,SYNTHETIC: TX004 transfer record,Demo Bank Records,bank_record,2026-01-15,demo://records/S009,High,Primary,Fictional record; not a retrieved real-world document.,,TX004-record
+S010,SYNTHETIC: A001 purchase completion record,Demo Property Registry,purchase_record,2025-02-20,demo://records/S010,High,Primary,Fictional record; not a retrieved real-world document.,,A001-purchase
+S011,SYNTHETIC: Merger certificate and general succession provision,Demo Registry,merger_record,2025-09-01,demo://records/S011,High,Primary,Fictional record; not a retrieved real-world document.,,merger-C003-C004
+S012,SYNTHETIC: Summit shareholder extract,Demo Registry,registry,2025-10-01,demo://records/S012,High,Primary,Fictional record; not a retrieved real-world document.,,Summit-shareholders
+S013,SYNTHETIC: Bounded title and beneficiary search log,Demo Research Log,search_log,2026-02-01,demo://records/S013,High,Primary,"Fictional record; not a retrieved real-world document. Search covers only this demo register, not all possible evidence.",,search-log

@@ -1,0 +1,3 @@
+aggregation_id,transaction_ids,amount,currency,fx_source_id,fx_rates
+AG001,TX001;TX003,4750000,USD,,
+AG002,TX002,1200000,EUR,,

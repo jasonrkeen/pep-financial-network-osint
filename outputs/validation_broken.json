@@ -1,0 +1,158 @@
+{
+  "as_of": "2026-02-01",
+  "errors": [
+    {
+      "code": "ENTITY_REFERENCE",
+      "table": "relationships",
+      "record_id": "R004",
+      "detail": "target_entity_id"
+    },
+    {
+      "code": "ENTITY_REFERENCE",
+      "table": "transactions",
+      "record_id": "TX003",
+      "detail": "payer_entity_id"
+    },
+    {
+      "code": "ENTITY_REFERENCE",
+      "table": "claims",
+      "record_id": "CL001",
+      "detail": "subject_entity_id"
+    },
+    {
+      "code": "SOURCE_REFERENCE",
+      "table": "claims",
+      "record_id": "CL003",
+      "detail": "S999"
+    },
+    {
+      "code": "SOURCE_REQUIRED",
+      "table": "claims",
+      "record_id": "CL006",
+      "detail": "even rejected/open propositions need source-bounded context"
+    },
+    {
+      "code": "TEMPORAL_OWNERSHIP",
+      "table": "relationships",
+      "record_id": "R008",
+      "detail": "ownership requires dated interval"
+    },
+    {
+      "code": "FUNDING_NOT_VALUATION",
+      "table": "assets",
+      "record_id": "A001",
+      "detail": "funding cannot substitute for purchase price or valuation"
+    },
+    {
+      "code": "FUNDING_NOT_VALUATION",
+      "table": "assets",
+      "record_id": "A001",
+      "detail": "price requires separate purchase record and currency"
+    },
+    {
+      "code": "OWNERSHIP_EVIDENCE",
+      "table": "claims",
+      "record_id": "CL001",
+      "detail": "attribution requires matching documented shareholding record in this demo"
+    },
+    {
+      "code": "OWNERSHIP_EVIDENCE",
+      "table": "claims",
+      "record_id": "CL002",
+      "detail": "attribution requires matching documented shareholding record in this demo"
+    },
+    {
+      "code": "FAMILY_NOT_OWNERSHIP",
+      "table": "claims",
+      "record_id": "CL002",
+      "detail": "family association cannot support attribution"
+    },
+    {
+      "code": "EVIDENCE_CITATION",
+      "table": "claims",
+      "record_id": "CL003",
+      "detail": "claim does not cite its underlying evidence record"
+    },
+    {
+      "code": "DERIVATIVE_INDEPENDENCE",
+      "table": "claims",
+      "record_id": "CL003",
+      "detail": "invalid count or source ancestry"
+    },
+    {
+      "code": "FUNDING_EARMARK",
+      "table": "claims",
+      "record_id": "CL004",
+      "detail": "chronology supports only explicit inference"
+    },
+    {
+      "code": "EVIDENCE_CITATION",
+      "table": "claims",
+      "record_id": "CL006",
+      "detail": "claim does not cite its underlying evidence record"
+    },
+    {
+      "code": "PRIMARY_REQUIRED",
+      "table": "claims",
+      "record_id": "CL006",
+      "detail": "demo confirmed claims require a primary record"
+    },
+    {
+      "code": "DERIVATIVE_INDEPENDENCE",
+      "table": "claims",
+      "record_id": "CL006",
+      "detail": "claimed source count differs from distinct lineage roots"
+    },
+    {
+      "code": "OPEN_DEPENDENCY",
+      "table": "claims",
+      "record_id": "CL007",
+      "detail": "open evidence needs gap and next collection action"
+    },
+    {
+      "code": "ADDRESS_NOT_TITLE",
+      "table": "claims",
+      "record_id": "CL008",
+      "detail": "address-only claim must remain rejected"
+    },
+    {
+      "code": "DERIVATIVE_INDEPENDENCE",
+      "table": "claims",
+      "record_id": "CL008",
+      "detail": "claimed source count differs from distinct lineage roots"
+    },
+    {
+      "code": "UNKNOWN_COERCION",
+      "table": "claims",
+      "record_id": "CL009",
+      "detail": "claims retain explicit states, never boolean/zero outcomes"
+    },
+    {
+      "code": "UNKNOWN_COERCION",
+      "table": "claims",
+      "record_id": "CL009",
+      "detail": "reassessment requires a new version and evidence review"
+    },
+    {
+      "code": "OPEN_DEPENDENCY",
+      "table": "claims",
+      "record_id": "CL009",
+      "detail": "open evidence needs gap and next collection action"
+    },
+    {
+      "code": "CURRENCY_AGGREGATION",
+      "table": "aggregations",
+      "record_id": "AG001",
+      "detail": "cross-currency total requires documented FX source and rates"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "DERIVATIVE_CONTEXT",
+      "record_id": "S005",
+      "detail": "retained for context; not independent corroboration"
+    }
+  ],
+  "error_count": 24,
+  "warning_count": 1
+}

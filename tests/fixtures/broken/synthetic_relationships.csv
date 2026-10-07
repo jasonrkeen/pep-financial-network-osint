@@ -1,0 +1,9 @@
+relationship_id,source_entity_id,target_entity_id,relationship_type,start_date,end_date,confidence,source_ids,notes,temporal_status,ownership_percent,support_basis
+R001,P002,C001,ownership,2020-01-01,,High,S001,Recorded shareholder; no automatic attribution to P001,Current,100,registry
+R002,P001,P002,family,2020-01-01,,High,S002,Family only,Current,,family
+R003,C001,C002,ownership,2021-01-01,,High,S003,Corporate shareholding supports control judgment,Current,100,corporate_ownership
+R004,P003,C999,director,2024-01-01,,High,S004;S005,Director role is not ownership; S005 derives from S004,Current,,registry
+R005,C003,C004,merger,2025-09-01,2025-09-01,High,S011,Legal succession; schedule does not identify A001,Historical,,merger_record
+R006,T001,C004,ownership,2025-10-01,,High,S012,Shareholder record does not disclose trust beneficiaries,Current,100,registry
+R007,C002,B002,bank_context,2024-03-10,,High,S006,Account context only; not bank ownership/control,Current,,registry
+R008,C003,C004,ownership,,,High,S011,Synthetic historical shareholding ended at merger,Current,100,registry
