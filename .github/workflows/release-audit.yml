@@ -1,0 +1,15 @@
+name: Release boundary audit
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  history-and-release-boundary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Check reachable history and release boundaries
+        run: python3 tools/release_audit.py
