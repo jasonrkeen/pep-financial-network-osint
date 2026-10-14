@@ -66,4 +66,4 @@ Intelligence requirements, OSINT evidence qualification, AML/financial-crime rea
 
 Only synthetic inputs, generalized implementation notes, schemas, code and demo outputs belong here. Private case files, contributor information, calibration materials, real allegations and experimental scoring inputs are excluded. The package is prepared for review. Repository visibility must remain private until the hostile review and final owner approval are complete. No script or workflow changes visibility or publishes releases.
 
-No license has been granted yet; [LICENSE](LICENSE) records the owner decision required before a public release.
+**License:** [MIT License](LICENSE), copyright © 2026 Jason Keen. The license applies to this synthetic portfolio's code, documentation and demonstration material; third-party dependencies retain their own licenses. Licensing is separate from publication: the repository remains private until the owner explicitly approves public visibility after final release review.
