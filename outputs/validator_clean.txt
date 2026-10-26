@@ -1,4 +1,4 @@
-python -m src.validate_data --data data --output outputs/validation_clean.json
+python -m src.validate_data --data data
 Exit code: 0
 {
   "as_of": "2026-02-01",

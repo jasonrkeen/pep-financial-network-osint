@@ -1,6 +1,6 @@
-# Public-release preparation — 2026-10-14
+# Private release candidate review — 2026-10-25
 
-The owner approved MIT licensing and subsequently authorized public release of this synthetic portfolio. Approval is recorded; it is not evidence that repository visibility has changed.
+MIT licensing is approved and implemented. The owner's current instruction on 2026-10-25 is to update/add the brief and complete the release review while keeping the repository private until a new final approval. This instruction supersedes earlier publication-preparation wording. Neither passing checks nor merging a private PR authorizes a visibility change.
 
 ## Release scope
 
@@ -8,9 +8,11 @@ The release covers this repository's synthetic demonstration, Python implementat
 
 ## Verification gates
 
-The existing Validate synthetic portfolio workflow reruns the automated tests, clean validator, graph build and expected broken-fixture failure. The additional Release boundary audit scans all reachable fetched Git history for a listed set of credential patterns and sensitive/case-specific filenames, verifies production source metadata is synthetic, checks the sole historical binary against the previously reviewed graph hash, confirms the approved MIT license and checks relative documentation links. This is a bounded automated check, not an independent security certification.
+The Validate synthetic portfolio workflow reruns the automated tests, clean validator, full graph/table/PDF pipeline and expected broken-fixture failure. The Release boundary audit scans all reachable fetched Git history for listed credential patterns and sensitive/case-specific filenames, verifies production source metadata is synthetic, checks graph/PDF binaries against exact reviewed hashes, confirms MIT licensing and checks relative documentation links. Changed binaries are rejected unless explicitly reviewed and recorded in `reviewed_binary_hashes.json`. This is a bounded check, not an independent security certification.
 
 Inspect the results attached to the exact release commit. Before changing visibility, also consider the commit author name/email and prior Actions logs, issues, comments and artifacts, which may become publicly accessible and are not comprehensively covered by the history script. No automated step changes visibility.
+
+The final review separately inventories and inspects these GitHub surfaces. Its scope, counts, metadata disclosure and any unavailable items are recorded in [the final review](final_release_review.md). The prior hostile review remains a self-review of the synthetic teaching artifact, not an independent methodology audit.
 
 ## Publication status
 

@@ -32,6 +32,7 @@ Dana Mercer has a recorded shareholding; the related fictional PEP Alex Mercer i
 * [Source dependencies](outputs/source_dependencies.csv): explicit ancestry and context-only derivative records.
 * [Clean validation](outputs/validation_clean.json) and [broken validation](outputs/validation_broken.json): machine-readable results.
 * [Claims ledger](data/synthetic_claims.csv), [source register](data/synthetic_sources.csv), [data dictionary](docs/data_dictionary.md).
+* [Three-page employer brief](outputs/JAS-63_PEP_Financial_Network_Employer_Brief.pdf) and [editable prose](docs/employer_brief.md): workflow, full synthetic graph, evidence boundaries, test results and skills demonstrated. MIT licensing is approved; public visibility still requires final owner approval.
 
 ## Guardrails
 
@@ -46,6 +47,9 @@ python -m venv .venv
 # Activate .venv using your platform's standard command.
 python -m pip install -r requirements.txt
 python -m pytest -q
+python -m src.main
+# The command above rebuilds the graph, tables, validation and PDF brief.
+# Individual checks remain available:
 python -m src.validate_data --data data --output outputs/validation_clean.json
 python -m src.build_network --data data --output outputs
 python -m src.validate_data --data tests/fixtures/broken --output outputs/validation_broken.json

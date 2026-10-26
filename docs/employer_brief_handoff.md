@@ -1,6 +1,6 @@
 # JAS-63 handoff: 2–3 page employer brief
 
-This is a preparation guide, not the finished brief. Use the private reviewed implementation until the owner approves a public repository link.
+The completed three-page brief is available as [PDF](../outputs/JAS-63_PEP_Financial_Network_Employer_Brief.pdf) and [editable prose](employer_brief.md). MIT licensing is approved. The repository remains private pending the owner's new final approval after release review. The remaining notes describe the brief structure and distribution boundaries.
 
 Page 1: state the public-record attribution problem and analytic question; show the eight-stage frozen workflow. Position the artifact as disciplined intelligence production and an implementation layer. Do not claim operational employment experience or universal methodology validity.
 
@@ -10,4 +10,4 @@ Optional page 3: summarize Python/NetworkX/CSV/GraphML, the exact 14 frozen cont
 
 Evidence to cite: README; docs/methodology.md; docs/evidence_standards.md; docs/ethics_and_limitations.md; docs/red_team_review.md; outputs/test_results.txt; outputs/verification_summary.json; outputs/evidence_matrix.csv; outputs/unresolved_gaps.csv; outputs/source_dependencies.csv.
 
-Before distribution, confirm employer audience and disclosure destination, choose an approved license for public release, and replace any private review link with the finished owner-approved public repository URL. Do not introduce real case material, unvalidated scoring, or unsupported claims to make the brief more dramatic.
+Before distribution, confirm employer audience and disclosure destination, obtain the owner's final approval for publication, and update the brief's private-access wording only after public access is verified. Do not introduce real case material, unvalidated scoring, or unsupported claims to make the brief more dramatic.

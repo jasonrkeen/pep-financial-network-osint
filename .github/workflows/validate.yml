@@ -13,7 +13,7 @@ jobs:
       - run: python -m pip install -r requirements-lock.txt
       - run: python -m pytest -q
       - run: python -m src.validate_data --data data
-      - run: python -m src.build_network --data data --output outputs
+      - run: python -m src.main
       - name: Broken fixture must fail
         shell: bash
         run: |

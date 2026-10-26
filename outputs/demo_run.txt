@@ -1,3 +1,4 @@
-python -m src.build_network --data data --output outputs
+python -m src.main
 Exit code: 0
 Clean demo: 0 errors; 12 nodes, 14 typed edges
+Generated graph, evidence, source dependencies, gaps, validation and three-page brief.

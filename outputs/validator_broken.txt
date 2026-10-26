@@ -1,4 +1,4 @@
-python -m src.validate_data --data tests/fixtures/broken --output outputs/validation_broken.json
+python -m src.validate_data --data tests/fixtures/broken
 Exit code: 1
 {
   "as_of": "2026-02-01",
