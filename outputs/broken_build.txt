@@ -1,4 +1,4 @@
-python -m src.build_network --data tests/fixtures/broken --output outputs/invalid_build
+python -m src.build_network --data tests/fixtures/broken --output work/refused-build
 Exit code: 1
 {
   "as_of": "2026-02-01",

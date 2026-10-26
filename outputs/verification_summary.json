@@ -1,6 +1,6 @@
 {
   "python": "3.14.4",
-  "tests": "See test_results.txt",
+  "tests": "31 passed; see test_results.txt",
   "clean_errors": 0,
   "broken_errors": 24,
   "graphml_roundtrip": "passed",
@@ -22,6 +22,9 @@
     "evidence_matrix.csv": "39fcbdf95ce86668fd4807a8656d16081c40355a5b80066d974dbffa3f7551f5",
     "unresolved_gaps.csv": "32960640a3def6e0fd2d040015b20c56b5ad8c7acdbad1cf768f34516605e8e0",
     "source_dependencies.csv": "9284535b7d13e60ebe252086d249df4a6f19061c39036604b297f798d189af76",
-    "run_manifest.json": "0075a23542c69bb2bfc3239546cf496a3ccbce7019c102611e5cacf6770456a2"
-  }
+    "run_manifest.json": "0075a23542c69bb2bfc3239546cf496a3ccbce7019c102611e5cacf6770456a2",
+    "JAS-63_PEP_Financial_Network_Employer_Brief.pdf": "afa8a5bf12001cf38bbae2528e44ee5b628d0dd2cedfe8e8432692245e8ed4e7"
+  },
+  "review_date": "2026-10-25",
+  "brief_pages": 3
 }

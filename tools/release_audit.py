@@ -19,6 +19,12 @@ def git(*args: str) -> bytes:
     return subprocess.check_output(["git", *args], stderr=subprocess.PIPE)
 
 
+def reviewed_binary(paths: set[str], content: bytes, approvals: dict[str, list[str]]) -> bool:
+    """Every path must explicitly approve this exact reviewed byte sequence."""
+    digest = hashlib.sha256(content).hexdigest()
+    return bool(paths) and all(digest in approvals.get(path, []) for path in paths)
+
+
 def audit() -> dict:
     failures: list[dict[str, str]] = []
     patterns = {
@@ -51,7 +57,7 @@ def audit() -> dict:
                 failures.append({"kind": "unreviewed_object_type", "object": oid, "path": path})
                 continue
             blobs.setdefault(oid, set()).add(path)
-    known_graph = "7addfd05c6036dbf3bf4ae6f5788e8c4b669de9d9e74827d89d3292dd57b279b"
+    approvals = json.loads(Path("docs/reviewed_binary_hashes.json").read_text(encoding="utf-8"))
     binary_blobs = 0
     text_blobs = 0
     source_versions = 0
@@ -73,7 +79,7 @@ def audit() -> dict:
             text_blobs += 1
         except UnicodeError:
             binary_blobs += 1
-            if paths != {"outputs/demo_network.png"} or hashlib.sha256(content).hexdigest() != known_graph:
+            if not reviewed_binary(paths, content, approvals):
                 failures.append({"kind": "unreviewed_binary", "object": oid, "path": sorted(paths)[0]})
             continue
         if "data/synthetic_sources.csv" in paths:
@@ -109,7 +115,7 @@ def audit() -> dict:
         "limitations": [
             "Pattern checks are not proof that no secret or private narrative exists.",
             "Commit author identity/email metadata is not removed or anonymized.",
-            "The graph hash links to the prior documented visual self-review; not a new independent image audit.",
+            "Binary hashes identify explicitly reviewed graph/PDF versions, not an independent security certification.",
             "Does not scan prior Actions logs, external artifacts, issues or PR comments.",
             "No source authenticity, operational effectiveness or legal-title validation is claimed.",
             "No repository visibility, permissions, tag or release mutation is performed.",

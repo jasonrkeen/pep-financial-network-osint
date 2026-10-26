@@ -13,3 +13,11 @@ Generated outputs: GraphML, PNG, one row per claim evidence matrix, collection-g
 Run `python -m pytest -q` for all frozen tests and regression checks. See `outputs/test_results.txt` and `docs/red_team_review.md` for the actual execution record. Each guardrail test mutates an otherwise clean dataset to prove the relevant control detects its intended failure. Full broken-fixture tests verify the combined defect classes.
 
 No credentials are committed. GitHub authentication is external to these scripts. CI performs validation/tests/build only, with read-only repository permissions. It does not deploy, publish or make the repository public.
+
+## Employer brief and single command
+
+After installing the pinned requirements, run `python -m src.main` from the repository root. It uses the frozen synthetic CSV inputs to regenerate GraphML/PNG, evidence/source/gap tables, clean/broken validation, the three-page PDF and `docs/employer_brief.md`. It performs no network collection and never changes repository visibility. To regenerate only the brief, run `python -m src.build_employer_brief`.
+
+The brief uses ReportLab 4.4.9 and pypdf 6.10.0, both pinned. PDF metadata uses deterministic timestamps and contains the intended author name, not a local filesystem path. `BriefConfig` separates the document update date (2026-10-25) from the unchanged evidence cutoff (2026-02-01). The test count displayed in the brief comes from the successful recorded `outputs/test_results.txt`; rebuilding a PDF alone does not rerun pytest or refresh that record. The final review records a fresh full-suite run. Layout is fixed to the frozen 12-node/14-edge demo; changed data requires a new visual review.
+
+Verify semantic content and three-page layout after any edit. Byte repeatability is checked within one dependency environment; different platforms may render graph fonts or compression differently. The release audit checks committed binary hashes against explicit reviewed versions; a changed PDF or graph must be visually reviewed and added deliberately, never accepted automatically by extension.

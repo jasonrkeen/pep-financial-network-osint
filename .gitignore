@@ -229,3 +229,4 @@ venv/
 .env.*
 work/
 .DS_Store
+data/raw/
