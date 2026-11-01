@@ -22,7 +22,7 @@ from .validate_data import load_data, validate
 class BriefConfig:
     """Document settings, separate from analytic assumptions and fixture values."""
     evidence_cutoff: str = "2026-02-01"
-    document_date: str = "2026-10-25"
+    document_date: str = "2026-11-01"
     author: str = "Jason Keen"
     repository_url: str = "https://github.com/jasonrkeen/pep-financial-network-osint"
     pdf_name: str = "JAS-63_PEP_Financial_Network_Employer_Brief.pdf"
@@ -200,7 +200,7 @@ def build_brief(root: Path, output_dir: Path | None = None, config: BriefConfig 
     text_sections.append(('Guardrails and limitations','All records are synthetic. Validation cannot authenticate documents, discover undisclosed copying, verify foreign law or establish real-world beneficial ownership. No experimental weights or legal scores are used. A purchase price is not current market value; offshore location and PEP status do not imply misconduct.'))
     y=block('Skills demonstrated','Requirements framing, OSINT evidence qualification, due diligence, AML and financial-crime reasoning, entity resolution, transaction analysis, network analysis, uncertainty management and reproducible research. The portfolio shows how explicit evidence boundaries support a reviewable intelligence product and focused next collection.',48,y-1,516)
     link=config.repository_url
-    reference=f'<b>Implementation reference:</b> <link href="{link}" color="#175b85">jasonrkeen/pep-financial-network-osint</link> (private; access controlled). Execution evidence: outputs/test_results.txt, verification_summary.json and validation reports; interpretation: evidence_matrix.csv, unresolved_gaps.csv and docs/red_team_review.md. MIT License, copyright 2026 Jason Keen. Public visibility remains blocked until the owner gives final approval after release review.'
+    reference=f'<b>Public implementation:</b> <link href="{link}" color="#175b85">jasonrkeen/pep-financial-network-osint</link>. Execution evidence: outputs/test_results.txt, verification_summary.json and validation reports; interpretation: evidence_matrix.csv, unresolved_gaps.csv and docs/red_team_review.md. MIT License, copyright 2026 Jason Keen. Published November 1, 2026, following owner approval and public-access verification. All demonstration records remain fictional.'
     y=paragraph(reference,48,y,516,'small',0)
     assert y>50,('Page 3 overflow',y)
     footer(3,612);c.save()
@@ -211,7 +211,7 @@ def build_brief(root: Path, output_dir: Path | None = None, config: BriefConfig 
     if len(reader.pages) != 3:
         raise ValueError("Employer brief must remain three pages")
     extracted = "\n".join(page.extract_text() for page in reader.pages)
-    for required in ["CL007", "CL009", "TX004", f"{test_count} passed", "24 errors", "MIT License", "private"]:
+    for required in ["CL007", "CL009", "TX004", f"{test_count} passed", "24 errors", "MIT License", "Public implementation"]:
         if required.lower() not in extracted.lower():
             raise ValueError("Missing brief content: " + required)
     # Page 2's complete network remains a linked figure in the editable prose.
@@ -220,7 +220,7 @@ def build_brief(root: Path, output_dir: Path | None = None, config: BriefConfig 
         prose += "## " + title + "\n\n" + page.extract_text().rsplit(config.author, 1)[0].strip() + "\n\n"
     prose += "## Complete synthetic network\n\n![All 12 fictional nodes and 14 typed edges](../outputs/demo_network.png)\n\n"
     prose += "The PDF contains the complete graph in a brief-sized vector layout. Family and address association do not establish ownership; payments do not prove funding; merger does not prove asset-specific title.\n\n"
-    prose += "## License and publication\n\n[MIT License](../LICENSE), copyright 2026 Jason Keen. [Implementation repository](" + config.repository_url + ") remains private pending the owner's final approval.\n"
+    prose += "## License and publication\n\n[MIT License](../LICENSE), copyright 2026 Jason Keen. [Public implementation repository](" + config.repository_url + ") published November 1, 2026, following owner approval and unauthenticated access verification. All demonstration records remain fictional.\n"
     MD.write_text(prose, encoding="utf-8", newline="\n")
     return OUT, MD
 
