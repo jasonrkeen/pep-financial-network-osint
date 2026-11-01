@@ -20,9 +20,11 @@ def test_brief_is_repeatable_and_carries_license_scope_and_unknowns(tmp_path: Pa
     reader = PdfReader(pdf)
     assert len(reader.pages) == 3
     text = '\n'.join(page.extract_text() for page in reader.pages)
-    for required in ['MIT License', 'private', 'final approval', 'CL007', 'CL009', 'TX004', '24 errors', 'synthetic']:
+    for required in ['MIT License', 'Public implementation', 'Published November 1, 2026', 'CL007', 'CL009', 'TX004', '24 errors', 'synthetic']:
         assert required.lower() in text.lower()
     assert 'license decision' not in text.lower()
+    assert 'private; access controlled' not in text.lower()
+    assert 'public visibility remains blocked' not in text.lower()
     assert 'formal operational intelligence experience' in text
     assert not reader.attachments
     catalog = reader.trailer['/Root']

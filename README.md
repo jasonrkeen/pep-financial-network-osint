@@ -32,7 +32,7 @@ Dana Mercer has a recorded shareholding; the related fictional PEP Alex Mercer i
 * [Source dependencies](outputs/source_dependencies.csv): explicit ancestry and context-only derivative records.
 * [Clean validation](outputs/validation_clean.json) and [broken validation](outputs/validation_broken.json): machine-readable results.
 * [Claims ledger](data/synthetic_claims.csv), [source register](data/synthetic_sources.csv), [data dictionary](docs/data_dictionary.md).
-* [Three-page employer brief](outputs/JAS-63_PEP_Financial_Network_Employer_Brief.pdf) and [editable prose](docs/employer_brief.md): workflow, full synthetic graph, evidence boundaries, test results and skills demonstrated. MIT licensing is approved; public visibility still requires final owner approval.
+* [Three-page employer brief](outputs/JAS-63_PEP_Financial_Network_Employer_Brief.pdf) and [editable prose](docs/employer_brief.md): workflow, full synthetic graph, evidence boundaries, test results and skills demonstrated. Published publicly under the MIT license on November 1, 2026.
 
 ## Guardrails
 
@@ -68,6 +68,6 @@ Intelligence requirements, OSINT evidence qualification, AML/financial-crime rea
 
 ## Public/private boundary and release
 
-Only synthetic inputs, generalized implementation notes, schemas, code and demo outputs belong here. Private case files, contributor information, calibration materials, real allegations and experimental scoring inputs are excluded. The package is prepared for review. Repository visibility must remain private until the hostile review and final owner approval are complete. No script or workflow changes visibility or publishes releases.
+Only synthetic inputs, generalized implementation notes, schemas, code and demo outputs belong here. Private case files, contributor information, calibration materials, real allegations and experimental scoring inputs are excluded. The owner approved publication after release review, and public access was verified on November 1, 2026. No script or workflow changes visibility or publishes releases.
 
-**License:** [MIT License](LICENSE), copyright © 2026 Jason Keen. The license applies to this synthetic portfolio's code, documentation and demonstration material; third-party dependencies retain their own licenses. Licensing is separate from publication: the repository remains private until the owner explicitly approves public visibility after final release review.
+**License:** [MIT License](LICENSE), copyright © 2026 Jason Keen. The license applies to this synthetic portfolio's code, documentation and demonstration material; third-party dependencies retain their own licenses. Licensing and public publication were separately approved by the owner.

@@ -1,12 +1,12 @@
 # PEP Financial Network OSINT
 
-Employer portfolio brief | Jason Keen | Updated 2026-10-25
+Employer portfolio brief | Jason Keen | Updated 2026-11-01
 
 ## Workflow and demonstration
 
 PEP Financial Network OSINT
 Employer portfolio brief
-Jason Keen  |  Updated 2026-10-25  |  Synthetic portfolio
+Jason Keen  |  Updated 2026-11-01  |  Synthetic portfolio
 This portfolio demonstrates a reproducible financial-intelligence workflow using a fictional PEP, companies,
 banks, transactions and assets. Its central result is an auditable record of what the evidence supports, what it
 does not establish, and what additional collection is needed. The project is a worked implementation layer; it
@@ -74,10 +74,10 @@ Requirements framing, OSINT evidence qualification, due diligence, AML and finan
 resolution, transaction analysis, network analysis, uncertainty management and reproducible research. The
 portfolio shows how explicit evidence boundaries support a reviewable intelligence product and focused next
 collection.
-Implementation reference: jasonrkeen/pep-financial-network-osint (private; access controlled). Execution evidence:
-outputs/test_results.txt, verification_summary.json and validation reports; interpretation: evidence_matrix.csv,
-unresolved_gaps.csv and docs/red_team_review.md. MIT License, copyright 2026 Jason Keen. Public visibility remains blocked
-until the owner gives final approval after release review.
+Public implementation: jasonrkeen/pep-financial-network-osint. Execution evidence: outputs/test_results.txt,
+verification_summary.json and validation reports; interpretation: evidence_matrix.csv, unresolved_gaps.csv and
+docs/red_team_review.md. MIT License, copyright 2026 Jason Keen. Published November 1, 2026, following owner approval and
+public-access verification. All demonstration records remain fictional.
 
 ## Complete synthetic network
 
@@ -87,4 +87,4 @@ The PDF contains the complete graph in a brief-sized vector layout. Family and a
 
 ## License and publication
 
-[MIT License](../LICENSE), copyright 2026 Jason Keen. [Implementation repository](https://github.com/jasonrkeen/pep-financial-network-osint) remains private pending the owner's final approval.
+[MIT License](../LICENSE), copyright 2026 Jason Keen. [Public implementation repository](https://github.com/jasonrkeen/pep-financial-network-osint) published November 1, 2026, following owner approval and unauthenticated access verification. All demonstration records remain fictional.
